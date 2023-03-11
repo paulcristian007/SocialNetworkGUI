@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetworkgui.controllers.AccountController">
+   <children>
+      <Button layoutX="239.0" layoutY="103.0" mnemonicParsing="false" onAction="#FriendshipRequestsClicked" text="Friendship Requests" />
+      <Button layoutX="239.0" layoutY="151.0" mnemonicParsing="false" onAction="#friendsListClicked" prefHeight="26.0" prefWidth="122.0" text="Friends List" />
+      <Button fx:id="signOutButton" layoutX="238.0" layoutY="245.0" mnemonicParsing="false" onAction="#signOutClicked" prefHeight="26.0" prefWidth="122.0" text="Sign Out" />
+      <Button fx:id="searchFriendsButton" layoutX="238.0" layoutY="200.0" mnemonicParsing="false" onAction="#searchFriendsClicked" prefHeight="26.0" prefWidth="122.0" text="Search friends" />
+      <Label fx:id="welcomeText" layoutX="239.0" layoutY="45.0" prefHeight="26.0" prefWidth="203.0" text="Label" />
+   </children>
+</AnchorPane>

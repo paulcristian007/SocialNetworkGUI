@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.socialnetworkgui.controllers.SearchFriendsController">
+   <children>
+      <TextField fx:id="firstNameField" layoutX="260.0" layoutY="83.0" />
+      <Label layoutX="169.0" layoutY="87.0" text="First Name" />
+      <TextField fx:id="lastNameField" layoutX="261.0" layoutY="134.0" />
+      <Button fx:id="sendRequestButton" layoutX="263.0" layoutY="187.0" mnemonicParsing="false" onAction="#sendRequestClicked" prefHeight="26.0" prefWidth="150.0" text="Send friendship request" />
+      <Label layoutX="169.0" layoutY="138.0" text="Last Name" />
+      <Button layoutX="263.0" layoutY="293.0" mnemonicParsing="false" onAction="#returnToMenuClicked" prefHeight="26.0" prefWidth="150.0" text="Return to Menu" />
+      <Button fx:id="dropRequestButton" layoutX="261.0" layoutY="241.0" mnemonicParsing="false" onAction="#dropRequestClicked" prefHeight="26.0" prefWidth="150.0" text="Drop friendship request" />
+   </children>
+</AnchorPane>
